@@ -41,7 +41,7 @@ try:
 except URLError as e:
   streamlit.error()
   
-streamlit.write('The user entered ', fruit_choice)
+# streamlit.write('The user entered ', fruit_choice)
 
 
 # my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
@@ -77,4 +77,4 @@ if streamlit.button('Add a fruit to the list'):
   my_cnx.close()
   streamlit.text(back_from_function)
                    
-streamlit.write('Thanks for adding ', add_my_fruit)
+# streamlit.write('Thanks for adding ', add_my_fruit)
